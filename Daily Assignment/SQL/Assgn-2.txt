@@ -6,7 +6,7 @@ INSERT INTO EMP VALUES (7369, 'SMITH', 'CLERK', 7902, '1980-12-17', 800, NULL, 2
 --1
 select * from emp where ename like 'A%';
 --2
-select * from emp where job <> 'Manager';
+select * from emp where mgr_id is null;
 --3
 select ename, empno, sal from emp where sal between 1200 and 1400;
 --4
