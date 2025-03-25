@@ -1,0 +1,154 @@
+create database PetPals;
+CREATE TABLE Pets (
+    PetID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Age INT,
+    Breed VARCHAR(100),
+    Type VARCHAR(50),
+    AvailableForAdoption BIT
+);
+CREATE TABLE Shelters (
+    ShelterID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Location VARCHAR(255)
+);
+CREATE TABLE Donations (
+    DonationID INT PRIMARY KEY,
+    DonorName VARCHAR(100),
+    DonationType VARCHAR(50),
+    DonationAmount DECIMAL(10,2),
+    DonationItem VARCHAR(100),
+    DonationDate DATETIME
+);
+CREATE TABLE AdoptionEvents (
+    EventID INT PRIMARY KEY,
+    EventName VARCHAR(100),
+    EventDate DATETIME,
+    Location VARCHAR(255)
+);
+CREATE TABLE Participants (
+    ParticipantID INT PRIMARY KEY,
+    ParticipantName VARCHAR(100),
+    ParticipantType VARCHAR(50),
+    EventID INT,
+    FOREIGN KEY (EventID) REFERENCES AdoptionEvents(EventID)
+);
+INSERT INTO Pets VALUES 
+(1, 'Sheru', 3, 'Pomeranian', 'Dog', 1),
+(2, 'Chintu', 2, 'Persian', 'Cat', 1),
+(3, 'Golu', 5, 'Bulldog', 'Dog', 0),
+(4, 'Mithu', 1, 'Peacock', 'Bird', 1),
+(5, 'Bholu', 4, 'Labrador', 'Dog', 1);
+INSERT INTO Shelters VALUES 
+(1, 'Paws Care Chennai', 'Chennai, Tamil Nadu'),
+(2, 'Hope Delhi', 'New Delhi, Delhi'),
+(3, 'Animal Aid Jaipur', 'Jaipur, Rajasthan'),
+(4, 'Stray Dog Mumbai', 'Mumbai, Maharashtra'),
+(5, 'Rescue Wings Bengaluru', 'Bengaluru, Karnataka');
+INSERT INTO Donations (DonationID, DonorName, DonationType, DonationAmount, DonationItem, DonationDate) VALUES
+(1, 'Rajesh Kumar', 'Cash', 5000.00, NULL, '2025-03-20 10:30:00'),
+(2, 'Neha Sharma', 'Item', NULL, 'Dog Food', '2025-02-15 14:45:00'),
+(3, 'Anand Iyer', 'Cash', 3000.00, NULL, '2025-01-10 12:00:00'),
+(4, 'Pooja Verma', 'Item', NULL, 'Cat Toys', '2025-03-01 09:15:00');
+INSERT INTO AdoptionEvents VALUES
+(1, 'Adopt-A-Pet', '2025-04-05 11:00:00', 'Chennai'),
+(2, 'Paws', '2025-05-10 15:00:00', 'Bangalore'),
+(3, ' Adoption', '2025-06-12 10:30:00', 'Mumbai');
+INSERT INTO Participants VALUES
+(1, 'Paws Care', 'Shelter', 1),
+(2, 'Neha Sharma', 'Adopter', 1),
+(3, 'Safe Haven', 'Shelter', 2),
+(4, 'Anand Iyer', 'Adopter', 3),
+(5, 'Happy Tails', 'Shelter', 3);
+select * from Pets;
+select * from Shelters;
+--select * from Donations;
+select * from AdoptionEvents;
+select * from Participants;
+--5
+select name,age,breed,type from pets where AvailableForAdoption=1;
+--6
+select p.ParticipantName, p.ParticipantType, a.EventName from Participants p
+join AdoptionEvents a on p.EventID = a.EventID
+where a.EventID =2 ;
+
+GO
+--7
+CREATE PROCEDURE Update_Shelter 
+@ShelterID INT, 
+@NewName VARCHAR(100), 
+@NewLocation VARCHAR(255) AS BEGIN  
+IF EXISTS (SELECT 1 FROM Shelters WHERE ShelterID = @ShelterID) 
+BEGIN UPDATE Shelters SET Name = @NewName, Location = @NewLocation WHERE ShelterID = @ShelterID; 
+PRINT 'Shelter information updated successfully.'; 
+END 
+END;
+EXEC UpdateShelterInfo @ShelterID = 2, @NewName = 'Safe Paws', @NewLocation = 'Tamilnadu, India';
+select * from shelters;
+--8
+ALTER TABLE Donations ADD Shelter_ID INT;
+ALTER TABLE Donations ADD CONSTRAINT FK_shelterid FOREIGN KEY(Shelter_ID) REFERENCES Shelters(ShelterID);
+UPDATE Donations SET Shelter_ID = 1 WHERE DonationID = 1;
+UPDATE Donations SET Shelter_ID = 2 WHERE DonationID = 2;
+UPDATE Donations SET Shelter_ID = 3 WHERE DonationID = 3;
+UPDATE Donations SET Shelter_ID = 4 WHERE DonationID = 4;
+SELECT s.Name ShelterName, SUM(d.DonationAmount) AS TotalDonation FROM Shelters s
+LEFT JOIN Donations d ON s.ShelterID = d.Shelter_ID GROUP BY s.Name;
+--9
+ALTER TABLE Pets add ShelterId int;
+ALTER TABLE Pets add constraint FK_Shelter FOREIGN KEY(ShelterId) REFERENCES Shelters(ShelterID);
+UPDATE Pets SET ShelterId = 5 WHERE PetID = 1;
+UPDATE Pets SET ShelterId = 4 WHERE PetID = 2;
+UPDATE Pets SET ShelterId = 3 WHERE PetID = 3;
+UPDATE Pets SET ShelterId = 2 WHERE PetID = 4;
+UPDATE Pets SET ShelterId = null WHERE PetID = 5;
+SELECT name,age,breed,type from Pets where ShelterId is null;
+--10
+SELECT FORMAT(DonationDate, 'MMMM yyyy') AS MonthYear, SUM(DonationAmount) AS TotalDonation FROM Donations
+GROUP BY FORMAT(DonationDate, 'MMMM yyyy')
+ORDER BY MIN(DonationDate);
+--11
+SELECT DISTINCT Breed FROM Pets WHERE Age BETWEEN 1 AND 3 OR Age > 5;
+--12
+SELECT p.Name AS PetName, s.Name AS ShelterName FROM Pets p JOIN Shelters s ON p.ShelterId = s.ShelterID 
+WHERE p.AvailableForAdoption = 1;
+--13
+UPDATE Shelters SET Location = 'Chennai' WHERE Location = 'Chennai, Tamil Nadu';
+UPDATE Shelters SET Location = 'New Delhi' WHERE Location = 'New Delhi, Delhi';
+UPDATE Shelters SET Location = 'Jaipur' WHERE Location = 'Jaipur, Rajasthan';
+UPDATE Shelters SET Location = 'Mumbai' WHERE Location = 'Mumbai, Maharashtra';
+UPDATE Shelters SET Location = 'Bengaluru' WHERE Location = 'Bengaluru, Karnataka';
+SELECT COUNT(*) AS TotalParticipants
+FROM Participants p
+JOIN AdoptionEvents e ON p.EventID = e.EventID
+JOIN Shelters s ON CHARINDEX(s.Location, e.Location) > 0
+WHERE s.Location LIKE '%Mumbai%';
+--14
+SELECT DISTINCT Breed FROM Pets WHERE Age BETWEEN 1 AND 5;
+--15
+SELECT PetID, Name, Age, Breed, Type
+FROM Pets WHERE ShelterId IS NULL;
+--16
+alter table pets add event_id int;
+alter table pets add constraint fk_event foreign key(event_id) references adoptionevents(EventID);
+UPDATE Pets SET event_id = 1 WHERE PetID = 1;
+UPDATE Pets SET event_id = 2 WHERE PetID = 2;
+SELECT p.Name AS PetName FROM Pets p JOIN AdoptionEvents ae ON p.event_id = ae.EventID
+WHERE p.event_id IS NOT NULL;
+--17
+SELECT s.Name AS ShelterName, COUNT(p.PetID) AS AvailablePets FROM Shelters s
+LEFT JOIN Pets p ON s.ShelterID = p.ShelterId AND p.AvailableForAdoption = 1 GROUP BY s.Name;
+--18
+SELECT p1.Name AS Pet1, p2.Name AS Pet2, p1.Breed, s.Name AS ShelterName FROM Pets p1 
+JOIN Pets p2 ON p1.ShelterId = p2.ShelterId AND p1.Breed = p2.Breed AND p1.PetID < p2.PetID
+JOIN Shelters s ON p1.ShelterId = s.ShelterID;
+--19
+SELECT s.Name AS ShelterName, e.EventName FROM Shelters s
+CROSS JOIN AdoptionEvents e;
+--20
+SELECT TOP 1 s.Name AS ShelterName, COUNT(p.PetID) AS AdoptedPets
+FROM Shelters s
+JOIN Pets p ON s.ShelterID = p.ShelterId
+WHERE p.AvailableForAdoption = 0
+GROUP BY s.Name
+ORDER BY COUNT(p.PetID) DESC;
