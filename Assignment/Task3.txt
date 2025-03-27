@@ -1,0 +1,54 @@
+use HMBank;
+--1
+select avg(balance) [Average salary] from accounts ;
+--2
+select top 10 account_id,balance from accounts order by balance desc;
+--3
+select sum(amount) [Total Deposits] from transactions where transaction_type='Deposit' and transaction_date='2025-03-08'; 
+--4
+select * from (select top 1 * from customers order by dob asc) [Oldest customer] 
+union select * from(select top 1 * from customers  order by dob desc) [Newest Customer];
+--5
+select t.transaction_id, t.account_id, t.transaction_type, t.amount, t.transaction_date,a.account_type
+from Transactions t
+join Accounts a on t.account_id = a.account_id;
+--6
+select c.customer_id, c.first_name, c.last_name, a.account_id, a.account_type, a.balance
+from Customers c
+join Accounts a on c.customer_id = a.customer_id;
+--7
+select t.transaction_id,t.transaction_type,t.transaction_date,c.customer_id,c.first_name,c.last_name,c.dob 
+from transactions t join accounts a on a.account_id=t.account_id join customers c on c.customer_id=a.customer_id 
+where t.account_id = 106;
+--8
+insert into Accounts VALUES (111, 1, 'savings', 3000.00);
+select customer_id,count(account_id) [No of accounts] from accounts group by customer_id having count(account_id)>1;
+--9
+select (select sum(amount) from Transactions where transaction_type = 'deposit') - 
+(select sum(amount) from Transactions where transaction_type = 'withdrawal') 
+as difference_transaction;
+--10
+select account_id, avg(balance) [Average daily Balance]
+from (select a.account_id, a.balance, t.transaction_date
+from Accounts a left join Transactions t on a.account_id = t.account_id 
+where t.transaction_date between '2025-03-01' and '2025-03-10'
+) account_balances
+group by account_id;
+--11
+select account_type ,sum(balance)[Total Balance] from accounts group by account_type;
+--12
+insert into Transactions values (1011, 101, 'deposit', 3000.00, '2025-03-15');  
+select account_id,count(transaction_id)as Total_transactions from transactions 
+group by account_id order by Total_transactions desc;
+--13
+select c.customer_id, c.first_name, a.account_type, SUM(a.balance) AS 'Total balance'
+from Customers c
+join Accounts a on c.customer_id = a.customer_id
+group by c.customer_id, c.first_name,a.account_type
+having sum(a.balance) > 8000;
+--14 no duplicates
+select account_id, transaction_type, amount, transaction_date, count(*)  
+from Transactions  
+group by account_id, transaction_type, amount, transaction_date  
+having count(*) > 1;  
+

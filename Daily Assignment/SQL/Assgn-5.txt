@@ -1,0 +1,6 @@
+--1
+select ename from emp where empno in (select empno from emp where sal>(select sal from emp where empno=7566));
+--2
+select ename,deptno,job from emp where job in (select job from emp where empno=7876);
+--3
+select ename,empno,sal from emp where mgr_id in(select empno from emp where ename like '[BC]%');

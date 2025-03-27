@@ -1,0 +1,9 @@
+use northwnd;
+--1
+SELECT p.CategoryID, c.CategoryName, p.ProductName, p.UnitPrice FROM Products p
+JOIN Categories c ON p.CategoryID = c.CategoryID WHERE p.UnitPrice > (
+SELECT AVG(p2.UnitPrice) FROM Products p2 WHERE p2.CategoryID = p.CategoryID);
+--2
+SELECT c.CategoryName, SUM(CAST(p.Discontinued AS INT)) AS DiscontinuedProducts, COUNT(p.ProductID) AS TotalProducts 
+FROM Categories c JOIN Products p ON c.CategoryID = p.CategoryID
+GROUP BY c.CategoryName;
