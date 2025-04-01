@@ -1,0 +1,29 @@
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.exe
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.deps.json
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.runtimeconfig.json
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.dll
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.pdb
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.AssemblyInfoInputs.cache
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.AssemblyInfo.cs
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.csproj.CoreCompileInputs.cache
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.dll
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\refint\DailyAssgn-4.dll
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.pdb
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.genruntimeconfig.cache
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\ref\DailyAssgn-4.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.exe
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.deps.json
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.runtimeconfig.json
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\bin\Debug\net8.0\DailyAssgn-4.pdb
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.AssemblyInfoInputs.cache
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.AssemblyInfo.cs
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.csproj.CoreCompileInputs.cache
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.sourcelink.json
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\refint\DailyAssgn-4.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.pdb
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\DailyAssgn-4.genruntimeconfig.cache
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn\obj\Debug\net8.0\ref\DailyAssgn-4.dll

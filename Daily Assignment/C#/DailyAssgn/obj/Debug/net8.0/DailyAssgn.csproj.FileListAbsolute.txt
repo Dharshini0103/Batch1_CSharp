@@ -1,0 +1,14 @@
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn.exe
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn.deps.json
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn.runtimeconfig.json
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn.dll
+E:\C#\DailyAssgn\DailyAssgn\bin\Debug\net8.0\DailyAssgn.pdb
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.AssemblyInfoInputs.cache
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.AssemblyInfo.cs
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.csproj.CoreCompileInputs.cache
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.dll
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\refint\DailyAssgn.dll
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.pdb
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\DailyAssgn.genruntimeconfig.cache
+E:\C#\DailyAssgn\DailyAssgn\obj\Debug\net8.0\ref\DailyAssgn.dll
