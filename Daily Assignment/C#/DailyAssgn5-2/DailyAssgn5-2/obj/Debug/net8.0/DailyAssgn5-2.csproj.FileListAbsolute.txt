@@ -12,3 +12,18 @@ E:\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\refint\DailyAssgn5-2.dll
 E:\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.pdb
 E:\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.genruntimeconfig.cache
 E:\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\ref\DailyAssgn5-2.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\bin\Debug\net8.0\DailyAssgn5-2.exe
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\bin\Debug\net8.0\DailyAssgn5-2.deps.json
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\bin\Debug\net8.0\DailyAssgn5-2.runtimeconfig.json
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\bin\Debug\net8.0\DailyAssgn5-2.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\bin\Debug\net8.0\DailyAssgn5-2.pdb
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.AssemblyInfoInputs.cache
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.AssemblyInfo.cs
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.csproj.CoreCompileInputs.cache
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.sourcelink.json
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\refint\DailyAssgn5-2.dll
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.pdb
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\DailyAssgn5-2.genruntimeconfig.cache
+D:\C# - Batch1\Daily Assignment\C#\DailyAssgn5-2\DailyAssgn5-2\obj\Debug\net8.0\ref\DailyAssgn5-2.dll

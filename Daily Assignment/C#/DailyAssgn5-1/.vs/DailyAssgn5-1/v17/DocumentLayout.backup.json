@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\C#\\DailyAssgn5-1\\",
+  "WorkspaceRootPath": "D:\\C# - Batch1\\Daily Assignment\\C#\\DailyAssgn5-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF309003-40D7-4DB7-B05E-E820A0AD6FCC}|DailyAssgn5-1\\DailyAssgn5-1.csproj|e:\\c#\\dailyassgn5-1\\dailyassgn5-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF309003-40D7-4DB7-B05E-E820A0AD6FCC}|DailyAssgn5-1\\DailyAssgn5-1.csproj|d:\\c# - batch1\\daily assignment\\c#\\dailyassgn5-1\\dailyassgn5-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF309003-40D7-4DB7-B05E-E820A0AD6FCC}|DailyAssgn5-1\\DailyAssgn5-1.csproj|solutionrelative:dailyassgn5-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF309003-40D7-4DB7-B05E-E820A0AD6FCC}|DailyAssgn5-1\\DailyAssgn5-1.csproj|e:\\c#\\dailyassgn5-1\\dailyassgn5-1\\timeperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF309003-40D7-4DB7-B05E-E820A0AD6FCC}|DailyAssgn5-1\\DailyAssgn5-1.csproj|d:\\c# - batch1\\daily assignment\\c#\\dailyassgn5-1\\dailyassgn5-1\\timeperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF309003-40D7-4DB7-B05E-E820A0AD6FCC}|DailyAssgn5-1\\DailyAssgn5-1.csproj|solutionrelative:dailyassgn5-1\\timeperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TimePeriod.cs",
-              "DocumentMoniker": "E:\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\TimePeriod.cs",
+              "DocumentMoniker": "D:\\C# - Batch1\\Daily Assignment\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\TimePeriod.cs",
               "RelativeDocumentMoniker": "DailyAssgn5-1\\TimePeriod.cs",
-              "ToolTip": "E:\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\TimePeriod.cs",
+              "ToolTip": "D:\\C# - Batch1\\Daily Assignment\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\TimePeriod.cs",
               "RelativeToolTip": "DailyAssgn5-1\\TimePeriod.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T16:16:32.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T16:16:32.968Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\Program.cs",
+              "DocumentMoniker": "D:\\C# - Batch1\\Daily Assignment\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\Program.cs",
               "RelativeDocumentMoniker": "DailyAssgn5-1\\Program.cs",
-              "ToolTip": "E:\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\Program.cs*",
-              "RelativeToolTip": "DailyAssgn5-1\\Program.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCUAAAAQAAAAAAAAAA==",
+              "ToolTip": "D:\\C# - Batch1\\Daily Assignment\\C#\\DailyAssgn5-1\\DailyAssgn5-1\\Program.cs",
+              "RelativeToolTip": "DailyAssgn5-1\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAxwCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T15:59:12.485Z",
               "EditorCaption": ""
