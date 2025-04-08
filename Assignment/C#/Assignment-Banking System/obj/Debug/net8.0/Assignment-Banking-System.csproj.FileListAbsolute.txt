@@ -1,0 +1,5 @@
+E:\C#\Assignment-Banking System\Assignment-Banking System\obj\Debug\net8.0\Assignment-Banking-System.csproj.AssemblyReference.cache
+E:\C#\Assignment-Banking System\Assignment-Banking System\obj\Debug\net8.0\Assignment-Banking-System.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Assignment-Banking System\Assignment-Banking System\obj\Debug\net8.0\Assignment-Banking-System.AssemblyInfoInputs.cache
+E:\C#\Assignment-Banking System\Assignment-Banking System\obj\Debug\net8.0\Assignment-Banking-System.AssemblyInfo.cs
+E:\C#\Assignment-Banking System\Assignment-Banking System\obj\Debug\net8.0\Assignment-Banking-System.csproj.CoreCompileInputs.cache
