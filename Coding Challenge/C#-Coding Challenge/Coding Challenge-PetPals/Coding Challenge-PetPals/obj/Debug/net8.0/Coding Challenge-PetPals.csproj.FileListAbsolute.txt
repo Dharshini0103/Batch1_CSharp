@@ -1,0 +1,22 @@
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\Coding Challenge-PetPals.exe
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\Coding Challenge-PetPals.deps.json
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\Coding Challenge-PetPals.runtimeconfig.json
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\Coding Challenge-PetPals.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\Coding Challenge-PetPals.pdb
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\System.Data.SqlClient.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.csproj.AssemblyReference.cache
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.AssemblyInfoInputs.cache
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.AssemblyInfo.cs
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.csproj.CoreCompileInputs.cache
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding C.561F2F65.Up2Date
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\refint\Coding Challenge-PetPals.dll
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.pdb
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\Coding Challenge-PetPals.genruntimeconfig.cache
+E:\C#\Coding Challenge-PetPals\Coding Challenge-PetPals\obj\Debug\net8.0\ref\Coding Challenge-PetPals.dll
