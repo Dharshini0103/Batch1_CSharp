@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Coding Challenge-PetPals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02cf27b30fd2213a32267d6cec03a9ea3908c457")]
 [assembly: System.Reflection.AssemblyProductAttribute("Coding Challenge-PetPals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Coding Challenge-PetPals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj": {}
+    "D:\\C# - Batch1\\Coding Challenge\\C#-Coding Challenge\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj": {}
   },
   "projects": {
-    "E:\\C#\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj": {
+    "D:\\C# - Batch1\\Coding Challenge\\C#-Coding Challenge\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj",
+        "projectUniqueName": "D:\\C# - Batch1\\Coding Challenge\\C#-Coding Challenge\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj",
         "projectName": "Coding Challenge-PetPals",
-        "projectPath": "E:\\C#\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj",
+        "projectPath": "D:\\C# - Batch1\\Coding Challenge\\C#-Coding Challenge\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\Coding Challenge-PetPals.csproj",
         "packagesPath": "C:\\Users\\V M Dharshini\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\obj\\",
+        "outputPath": "D:\\C# - Batch1\\Coding Challenge\\C#-Coding Challenge\\Coding Challenge-PetPals\\Coding Challenge-PetPals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

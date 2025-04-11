@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#\\ProjectManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\projectmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\projectmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29503198-0F30-4073-9CA8-548D95599AF1}|ProjectManagementSystem.Tests\\ProjectManagementSystem.Tests.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29503198-0F30-4073-9CA8-548D95599AF1}|ProjectManagementSystem.Tests\\ProjectManagementSystem.Tests.csproj|solutionrelative:projectmanagementsystem.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\dao\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\dao\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\dao\\projectrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\dao\\projectrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\util\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\util\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\db.properties.text||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\db.properties.text||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\myexceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\myexceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\entity\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\entity\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\app\\projectapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\app\\projectapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\myexceptions\\projectnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\myexceptions\\projectnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\entity\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\entity\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|e:\\c#\\projectmanagementsystem\\projectmanagementsystem\\util\\propertyutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4E9BF2-13A3-47C7-949B-D9853635DBFD}|ProjectManagementSystem\\ProjectManagementSystem.csproj|solutionrelative:projectmanagementsystem\\util\\propertyutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem.Tests\\UnitTest1.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ProjectManagementSystem.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA5wEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:20:42.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectApp.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\app\\ProjectApp.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\app\\ProjectApp.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\app\\ProjectApp.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\app\\ProjectApp.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwHkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:58:08.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectNotFoundException.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\myexceptions\\ProjectNotFoundException.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\myexceptions\\ProjectNotFoundException.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\myexceptions\\ProjectNotFoundException.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\myexceptions\\ProjectNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:51:01.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeNotFoundException.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\myexceptions\\EmployeeNotFoundException.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\myexceptions\\EmployeeNotFoundException.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\myexceptions\\EmployeeNotFoundException.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\myexceptions\\EmployeeNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:50:46.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "db.properties.text",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\db.properties.text",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\db.properties.text",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\db.properties.text",
+              "RelativeToolTip": "ProjectManagementSystem\\db.properties.text",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T07:12:31.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\util\\DBConnection.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\util\\DBConnection.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\util\\DBConnection.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\util\\DBConnection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:02:13.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PropertyUtil.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\util\\PropertyUtil.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\util\\PropertyUtil.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\util\\PropertyUtil.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\util\\PropertyUtil.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:01:56.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectRepositoryImpl.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\dao\\ProjectRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\dao\\ProjectRepositoryImpl.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\dao\\ProjectRepositoryImpl.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\dao\\ProjectRepositoryImpl.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAowCYBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:22:08.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Task.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\entity\\Task.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\entity\\Task.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\entity\\Task.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\entity\\Task.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwC8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:19:08.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Project.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\entity\\Project.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\entity\\Project.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\entity\\Project.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\entity\\Project.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:18:30.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\entity\\Employee.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\entity\\Employee.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\entity\\Employee.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\entity\\Employee.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:17:47.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\dao\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\dao\\IProjectRepository.cs",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\dao\\IProjectRepository.cs",
+              "RelativeToolTip": "ProjectManagementSystem\\dao\\IProjectRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:11:02.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectManagementSystem.csproj",
+              "DocumentMoniker": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\ProjectManagementSystem.csproj",
+              "RelativeDocumentMoniker": "ProjectManagementSystem\\ProjectManagementSystem.csproj",
+              "ToolTip": "E:\\C#\\ProjectManagementSystem\\ProjectManagementSystem\\ProjectManagementSystem.csproj",
+              "RelativeToolTip": "ProjectManagementSystem\\ProjectManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-10T01:46:07.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+hostname=DHARSH01\SQLEXPRESS01
+dbname=Project_Management_System
+integratedSecurity=true
+
